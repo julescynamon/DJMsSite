@@ -6,14 +6,15 @@ import Engagement from './Component/Engagement/Engagement';
 import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
 import Trending from './Component/Trending/Trending';
+import './app.css';
 
 
 function App() {
 	return (
 		<div className='App'>
 			<>
-				<Header />
 				<Nav />
+				<Header />
 				<About />
 				<Gallery />
 				<Engagement />
