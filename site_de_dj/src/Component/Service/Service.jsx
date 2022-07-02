@@ -4,7 +4,7 @@ import './service.css';
 export default function Service() {
     return (
         <div>
-        
+            
         </div>
     )
 }
