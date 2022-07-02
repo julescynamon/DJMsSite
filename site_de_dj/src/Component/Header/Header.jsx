@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {  useSpring, animated } from 'react-spring';
 import { Waypoint } from "react-waypoint";
 import './header.css';
+import HeaderDowm from './HeaderDowm';
 
 export default function Header() {
 
@@ -14,19 +15,22 @@ export default function Header() {
 
 
 	return (
-		<section className="intro">
-			<Waypoint
-				bottomOffset='30%'
-				onEnter={() => {
-					if (!toggleTxt) {
-						setToggleTxt(true);
-					}
-				}}
-			/>
-			<animated.div style={animation} className="center">
-			<h1 className="title">Préstations Dj - Lumières - Ambiance - Évenementielles </h1>
-			<h2 className="accroche">Spécialiste du mariage oriental</h2>
-			</animated.div>
-		</section>
+		<>
+			<section className="intro">
+				<Waypoint
+					bottomOffset='30%'
+					onEnter={() => {
+						if (!toggleTxt) {
+							setToggleTxt(true);
+						}
+					}}
+				/>
+				<animated.div style={animation} className="center">
+				<h1 className="title">Préstations Dj - Lumières - Ambiance - Évenementielles </h1>
+				<h2 className="accroche">Spécialiste du mariage oriental</h2>
+				</animated.div>
+			</section>
+			<HeaderDowm />
+		</>
 	)
 }

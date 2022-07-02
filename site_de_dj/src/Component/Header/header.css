@@ -11,7 +11,7 @@
 }
 
 .center {
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     text-align: center;
     box-shadow: 5px 5px 15px 5px #000000;
     background-color: rgba(0, 0, 0, 0.529);
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 20px;
 }
 
@@ -38,5 +38,16 @@
     text-align: center;
     box-shadow: 5px 5px 15px 5px #000000;
     background-color: rgba(0, 0, 0, 0.529);
-    font-weight: bold;
+    font-weight: normal;
+}
+
+.content::after {
+    content: "";
+    width: 50px;
+    height: 2rem;
+    background: var(--color-black);
+    margin-top: 50px;
+}
+
+.text {
 }
