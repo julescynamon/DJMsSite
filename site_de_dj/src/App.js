@@ -7,6 +7,7 @@ import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
 import Trending from './Component/Trending/Trending';
 import './app.css';
+import Service from './Component/Service/Service';
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
 				<Nav />
 				<Header />
 				<About />
-				<Gallery />
+				<Service/>
 				<Engagement />
+				<Gallery />
 				<Trending />
 				<Contact />
 				<Footer />

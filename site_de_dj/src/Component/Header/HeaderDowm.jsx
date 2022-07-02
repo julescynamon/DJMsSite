@@ -5,7 +5,7 @@ export default function HeaderDowm() {
     return (
         <div className="marketing">
 				<p className="text">
-					Une prestation sur mesure, pour un mariage, unique et magique... 
+					Une prestation sur mesure, pour un mariage, unique et magique ... 
 				</p>
 				<button className="reserv">
 					<a href="#contact"> Réserver</a>

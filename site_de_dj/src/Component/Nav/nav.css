@@ -62,7 +62,7 @@
 .toggler__icon div {
     width: 25px;
     height: 2px;
-    background: var(--color-black);
+    background: var(--color-bg-variant);
     margin: 5px 0px;
     transition: 0.3s ease;
 }
@@ -78,7 +78,7 @@
         top: 0px;
         right: 30px;
         /* border: 2px solid rgba(0, 0, 0, 0.5); */
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: var(--color-black);
         padding: 25px;
         transform: translateX(100%);
         transition: 0.5s ease;
